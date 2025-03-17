@@ -1,6 +1,4 @@
 # Collaboration-Framework-between-Large-and-Small-Models-in-the-Civil-Domain
-# Collaboration Framework between Large and Small Models in the Civil Domain
-
 We propose a hybrid framework that collaborates both large and small models to improve charge prediction. Initially, the SMs provide an initial prediction along with a predicted probability distribution. If the maximum predicted probability falls below a predefined threshold, the LLMs step in to reflect and re-predict as needed. Additionally, we construct a confusing charges dictionary based on the confusion matrix of  SMs, which helps the LLMs make secondly  prediction. 
 
 The proposed framework demonstrates extensive scalability, making it applicable to various legal fields and adaptable across different types of legal cases. Therefore, we successfully apply our framework to predict the cause of action within the civil domain.
