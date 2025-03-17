@@ -4,10 +4,10 @@ We propose a hybrid framework that collaborates both large and small models to i
 For further details, please refer to the experiment:
 ## Content
 
-- [Objective of the Experiment]
-- [Dataset and Experimental Details]
-- [Experiment setting]
-- [Results Analysis]
+- [Objective of the Experiment](#objective-of-the-experiment)
+- [Dataset and Experimental Details](#dataset-and-experimental-details)
+- [Experiment Setting](#experiment-setting)
+- [Results Analysis](#results-analysis)
 
 ## Objective of the experiment
 
