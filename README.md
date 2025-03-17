@@ -15,7 +15,7 @@ To validate the scalability of our proposed framework, we apply it to cause of a
 
 ## Dataset and experimental details
 
-We use a large scale civil dataset from CAIL-long, a long text civil and criminal dataset published in [Lawformer](https://www.sciencedirect.com/science/article/pii/S2666651021000176), Each civil case in the  is annotated with the causes of actions and the relevant laws. The detailed statistics of the dataset are shown in Table 1.
+We use a large scale civil dataset from CAIL-long, a long text civil and criminal dataset published in [Lawformer](https://www.sciencedirect.com/science/article/pii/S2666651021000176), Each civil case in the CAIL-long is annotated with the causes of actions and the relevant laws. The detailed statistics of the dataset are shown in Table 1.
 
 ### Table1 Statistics of the civil dataset
 
@@ -29,8 +29,7 @@ We use a large scale civil dataset from CAIL-long, a long text civil and crimina
 | Average Length of Fact Description | 1286.88 |
 ## Experiment setting
 
-we use the Mac-bert as the SMs, and GPT-4o(2018-08-06) as the LLMs for the secondary prediction. During the fine-tuning of MacBERT, the learning rate is set to 2 × 10−5
-, with 10 training epochs and a batch size of 16. In the testing pahse, we obtain the results from the LLMs via API calls.The optimal max predicted probality threshold is 0.4.
+we use the Mac-bert as the SMs, and GPT-4o(2018-08-06) as the LLMs for the secondary prediction. During the fine-tuning of MacBERT, the learning rate is set to 2e-5, with 10 training epochs and a batch size of 16. In the testing pahse, we obtain the results from the LLMs via API calls. The optimal max predicted probality threshold is 0.4.
 
 ## Results analysis
 
@@ -44,5 +43,4 @@ we use the Mac-bert as the SMs, and GPT-4o(2018-08-06) as the LLMs for the secon
 | **macbert** | 0.4519 | 0.4327 | 0.4209 | 0.8077 | 0.6143 |
 | **Framework** | 0.4685 | 0.4411 | 0.4339 | **0.8123** | **0.6231** |
 
-As shown in Table3, our proposed framework outperforms both the SMs-based
-and LLMs-based baselines, achieving the best performance with an average improvement of 1.61% on mean F1.  Therefore, this experiment demonstrates that our proposed framework can be generalized to other different legal field , demonstrating a degree of applicability and scalability.
+As shown in Table3, our proposed framework outperforms both the SMs-based and LLMs-based baselines, achieving the best performance with an average improvement of 1.61% on mean F1. Therefore, this experiment demonstrates that our proposed framework can be generalized to other different legal field, demonstrating a degree of applicability and scalability.
