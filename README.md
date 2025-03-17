@@ -39,7 +39,8 @@ We use a large scale civil dataset from CAIL-long, a long text civil and crimina
 ## Promopt in cause of action prediction task
 
 In cause of action prediction task, we design a specific prompt for the LLMs in the secondary prediction following our proposed two-stage legal inference prompt.
-    "prompt_template": """
+'''josn
+  "prompt_template": """
     {
         "Assume you are an expert in the field of civil law. Please determine the cause of action for the case based on the factual part of the case. Note that this case only involves one applicable cause of action, please predict the most suitable cause of action from the given list of candidate causes of action.",
         "Let's analyze the case according to the following steps": {
