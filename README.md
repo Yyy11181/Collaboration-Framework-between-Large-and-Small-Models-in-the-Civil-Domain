@@ -15,7 +15,7 @@ To validate the scalability of our proposed framework, we apply it to cause of a
 
 ## Dataset and experimental details
 
-We use a large scale civil dataset from CAIL-long, a long text civil and criminal dataset published by  xiao et al \cite{XIAO202179}, Each civil case in the  is annotated with the causes of actions and the relevant laws. The detailed statistics of the dataset are shown in Table 1.
+We use a large scale civil dataset from CAIL-long, a long text civil and criminal dataset published in [Lawformer](https://www.sciencedirect.com/science/article/pii/S2666651021000176), Each civil case in the  is annotated with the causes of actions and the relevant laws. The detailed statistics of the dataset are shown in Table 1.
 
 ### Table1 Statistics of the civil dataset
 
@@ -46,16 +46,3 @@ we use the Mac-bert as the SMs, and GPT-4o(2018-08-06) as the LLMs for the secon
 
 As shown in Table3, our proposed framework outperforms both the SMs-based
 and LLMs-based baselines, achieving the best performance with an average improvement of 1.61% on mean F1.  Therefore, this experiment demonstrates that our proposed framework can be generalized to other different legal field , demonstrating a degree of applicability and scalability.
-
-## Reference
-@article{XIAO202179,
-title = {Lawformer: A pre-trained language model for Chinese legal long documents},
-journal = {AI Open},
-volume = {2},
-pages = {79-84},
-year = {2021},
-issn = {2666-6510},
-doi = {https://doi.org/10.1016/j.aiopen.2021.06.003},
-url = {https://www.sciencedirect.com/science/article/pii/S2666651021000176},
-author = {Chaojun Xiao and Xueyu Hu and Zhiyuan Liu and Cunchao Tu and Maosong Sun}
-}
