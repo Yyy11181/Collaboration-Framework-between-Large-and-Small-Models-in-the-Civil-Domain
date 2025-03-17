@@ -47,7 +47,7 @@ we use the Mac-bert as the SMs, and GPT-4o(2018-08-06) as the LLMs for the secon
 As shown in Table3, our proposed framework outperforms both the SMs-based
 and LLMs-based baselines, achieving the best performance with an average improvement of 1.61% on mean F1.  Therefore, this experiment demonstrates that our proposed framework can be generalized to other different legal field , demonstrating a degree of applicability and scalability.
 
-##Reference
+## Reference
 @article{XIAO202179,
 title = {Lawformer: A pre-trained language model for Chinese legal long documents},
 journal = {AI Open},
