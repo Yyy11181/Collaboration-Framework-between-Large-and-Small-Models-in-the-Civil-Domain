@@ -15,7 +15,7 @@ To validate the scalability of our proposed framework, we apply it to cause of a
 
 ## Dataset and experimental details
 
-We use a large scale civil dataset from CAIL-long, a long text civil and criminal dataset published in [Lawformer](https://www.sciencedirect.com/science/article/pii/S2666651021000176), Each civil case in the CAIL-long is annotated with the causes of actions and the relevant laws. The detailed statistics of the dataset are shown in Table 1.
+We use a large scale civil dataset from CAIL-long, a long text civil and criminal dataset published in [Lawformer](https://www.sciencedirect.com/science/article/pii/S2666651021000176). Each civil case in the CAIL-long is annotated with the causes of actions and the relevant laws. The detailed statistics of the dataset are shown in Table 1.
 
 ### Table1 Statistics of the civil dataset
 
