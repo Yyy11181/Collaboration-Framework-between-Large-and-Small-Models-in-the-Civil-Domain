@@ -34,8 +34,7 @@ And we have analyzed the distribution of the dataset, which reveals long-tailed 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" />
 
 Besides, we also analyze the cause of action of test dataset.
-![image](https://github.com/user-attachments/assets/b8c2aaab-3858-4a9e-8ea4-8a3fc500617a)
-
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/b8c2aaab-3858-4a9e-8ea4-8a3fc500617a" />
 ## Experiment setting
 
 we use the MacBERT as the SMs, and GPT-4o(gpt-4o-08-06) as the LLMs for the secondary prediction. During the fine-tuning of MacBERT, the learning rate is set to 2e-5, with 10 training epochs and a batch size of 16. In the testing pahse, we obtain the results from the LLMs via API calls. 
