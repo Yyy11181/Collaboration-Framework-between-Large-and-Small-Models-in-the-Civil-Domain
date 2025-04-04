@@ -31,7 +31,7 @@ We use a large scale civil dataset from CAIL-Long, a long text civil and crimina
 
 And we have analyzed the distribution of the dataset, which reveals long-tailed distribution characteristics. Besides, we find that the cause of action distribution in the test data reveals a predominance of high-frequency cases.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" <img width="500" alt="image" src="https://github.com/user-attachments/assets/a9f0acbf-98fe-4d1b-9f80-fe032993fccf" />/>
 
 ## Experiment setting
 
@@ -50,4 +50,4 @@ we use the MacBERT as the SMs, and GPT-4o(gpt-4o-08-06) as the LLMs for the seco
 | **Framework** | 46.91 | 44.82 | 43.81 | **81.35** | **62.58** |
 
 As shown in Table3, our proposed framework outperforms both the SMs-based and LLMs-based baselines, achieving the best performance with an average improvement of 1.88% on mean F1 and 3.69% on mi-F1. 
-While our framework's macro-F1 improvement demonstrates enhanced performance on few-shot cases than SMs, it does not surpass GPT-4o's overall performance on the full test set. The boost in micro-F1 confirms our framework's effectiveness in handling class-imbalanced dataset. Therefore, this experiment demonstrates that our proposed framework can be generalized to other different legal field, demonstrating a degree of applicability and scalability.
+Besides, due to the relatively low absolute recall quantity of few-shot categories, while our framework demonstrates improved classification performance (Macro-F1) on few-shot cases, it has not yet surpassed GPT-4o's comprehensive performance on the full test dataset. Overall, this experiment demonstrates that our proposed framework can be generalized to other different legal field, demonstrating a degree of applicability and scalability.
