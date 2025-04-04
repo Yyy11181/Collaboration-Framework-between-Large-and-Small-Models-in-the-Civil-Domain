@@ -37,7 +37,7 @@ And we have analyzed the distribution of the dataset, which reveals long-tailed 
   </tr>
   <tr>
     <td align="center">Distribution of the dataset</td>
-    <td align="center">distribution of the test data</td>
+    <td align="center">Distribution of the test data</td>
   </tr>
 </table>
 
