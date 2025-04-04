@@ -28,6 +28,10 @@ We use a large scale civil dataset from CAIL-Long, a long text civil and crimina
 | cause of action | 257 |
 | law | 330 |
 | Average Length of Fact Description | 1286.88 |
+And we have analyzed the distribution of the dataset, which reveals long-tailed distribution characteristics.
+<img width="892" alt="image" src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" />
+
+
 ## Experiment setting
 
 we use the MacBERT as the SMs, and GPT-4o(gpt-4o-08-06) as the LLMs for the secondary prediction. During the fine-tuning of MacBERT, the learning rate is set to 2e-5, with 10 training epochs and a batch size of 16. In the testing pahse, we obtain the results from the LLMs via API calls. The optimal max predicted probality threshold is 0.4.
