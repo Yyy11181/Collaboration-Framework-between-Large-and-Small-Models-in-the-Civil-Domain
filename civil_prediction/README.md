@@ -5,14 +5,13 @@
 ### 📁 Directories
 | Directory | Description |
 |-----------|------------|
-| `civil_data/` | Contains all datasets including:<br>- Training data<br>- Validation data<br>- Test data <br>- dataprocessing file<br>|
-| `civil_output/` |  <br>- SMs prediction outputs during the testing phase <br>- The database used for LLMs's secondary prediction<br>|
+| `civil_database/` |   The database used in LLM prompt:<br>- applicable_case <br>- confusing charges dictionary<br>- crime_define <br>-label2id<br>|
 
 ### 📋 Key Scripts
 | Script | Purpose |
 |--------|---------|
-| `api_my.py` | The used function in the LLMs API interface implementation |
-| `cm_analyse.py` | The script for the confusing charge dictionary  |
+| `api_my.py` | The used function in prompt_civil.py |
+| `cm_analyse.py` | The script for generating the confusing charge dictionary  |
 | `confidence.py` | Threshold determination based on maximum predicted probability<br>*(Adjust threshold for optimal performance)* |
 | `main_multi_new_civil.py` | Main prediction script for SMs |
 | `prompt_civil_based.py` |LLMs prediction handler |

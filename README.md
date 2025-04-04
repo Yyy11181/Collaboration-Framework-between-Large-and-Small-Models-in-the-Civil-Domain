@@ -1,8 +1,7 @@
 # Collaboration-Framework-between-Large-and-Small-Models-in-the-Civil-Domain
-We propose a hybrid framework that collaborates both large and small models to improve charge prediction. Initially, the SMs provide an initial prediction along with a predicted probability distribution. If the maximum predicted probability falls below a predefined threshold, the LLMs step in to reflect and re-predict as needed. Additionally, we construct a confusing charges dictionary based on the confusion matrix of  SMs, which helps the LLMs make secondly  prediction. The proposed framework demonstrates extensive scalability, making it applicable to various legal fields and adaptable across different types of legal cases. 
-Therefore, we apply our framework to predict the the legal cause of action in civil law cases.
+We propose a hybrid framework that collaborates both large and small models to improve charge prediction. Initially, the SMs provide an initial prediction along with a predicted probability distribution. If the maximum predicted probability falls below a predefined threshold, the LLMs step in to reflect and re-predict as needed. Additionally, we construct a confusing charges dictionary based on the confusion matrix of  SMs, which helps the LLMs make secondly prediction. 
 
-For further details, please refer to the experiment:
+Furthermore, the proposed framework demonstrates generalisability, making it applicable to different legal fields. We have successfully applied our framework to predict the cause of action in civil law cases, determining the cause of action based on case facts. Our experiments have yielded promising results, showcasing the framework's effectiveness in this context. For further details, please refer to the experiment:
 ## Content
 
 - [Objective of the Experiment](#objective-of-the-experiment)
@@ -12,7 +11,7 @@ For further details, please refer to the experiment:
 
 ## Objective of the experiment
 
-To validate the scalability of our proposed framework, we apply it to cause of action prediction task within the civil domain, aiming to assist the  judge to category the civil diputes and improving the judicial efficiency.
+To validate the generalisability of our proposed framework, we to predict the cause of action in civil law cases, determining the cause of action based on case facts.
 
 ## Dataset and experimental details
 
