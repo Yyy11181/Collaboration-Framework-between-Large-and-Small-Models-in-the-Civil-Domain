@@ -33,7 +33,7 @@ And we have analyzed the distribution of the dataset, which reveals long-tailed 
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" alt="图1" width="500"/></td>
-    <td><img src="https://github.com/user-attachments/assets/a9f0acbf-98fe-4d1b-9f80-fe032993fccf" alt="图2" width="500"/></td>
+    <td><img src="https://github.com/user-attachments/assets/697eba81-a496-4ed8-a136-4fdb78857fb7" alt="图2" width="500"/></td>
   </tr>
   <tr>
     <td align="center">图1标题</td>
