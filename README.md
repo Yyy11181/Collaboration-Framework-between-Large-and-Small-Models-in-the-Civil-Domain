@@ -30,8 +30,17 @@ We use a large scale civil dataset from CAIL-Long, a long text civil and crimina
 | Average Length of Fact Description | 1286.88 |
 
 And we have analyzed the distribution of the dataset, which reveals long-tailed distribution characteristics. Besides, we find that the cause of action distribution in the test data reveals a predominance of high-frequency cases.
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" alt="图1" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a9f0acbf-98fe-4d1b-9f80-fe032993fccf" alt="图2" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center">图1标题</td>
+    <td align="center">图2标题</td>
+  </tr>
+</table>
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" <img width="500" alt="image" src="https://github.com/user-attachments/assets/a9f0acbf-98fe-4d1b-9f80-fe032993fccf" />/>
 
 ## Experiment setting
 
