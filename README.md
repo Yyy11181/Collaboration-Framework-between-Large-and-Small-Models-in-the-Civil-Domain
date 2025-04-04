@@ -29,17 +29,13 @@ We use a large scale civil dataset from CAIL-Long, a long text civil and crimina
 | law | 330 |
 | Average Length of Fact Description | 1286.88 |
 
-And we have analyzed the distribution of the dataset, which reveals long-tailed distribution characteristics.
+And we have analyzed the distribution of the dataset, which reveals long-tailed distribution characteristics. Besides, we find that the cause of action distribution in the test data reveals a predominance of high-frequency cases.
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" />
 
-Besides, we also analyze the cause of action of test dataset.
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/b8c2aaab-3858-4a9e-8ea4-8a3fc500617a" />
 ## Experiment setting
 
-we use the MacBERT as the SMs, and GPT-4o(gpt-4o-08-06) as the LLMs for the secondary prediction. During the fine-tuning of MacBERT, the learning rate is set to 2e-5, with 10 training epochs and a batch size of 16. In the testing pahse, we obtain the results from the LLMs via API calls. 
-
-As for the threshold, similar to the prior method, we 
+we use the MacBERT as the SMs, and GPT-4o(gpt-4o-08-06) as the LLMs for the secondary prediction. During the fine-tuning of MacBERT, the learning rate is set to 2e-5, with 10 training epochs and a batch size of 16. In the testing pahse, we obtain the results from the LLMs via API calls. As for the threshold, similar to the prior method, we adopt the threshold is 0.7, achieving an identification efficiency of 65.0% alongside a 33.8% recall rate for error samples, which means a limited recall for few-shot cases.
 
 ## Results analysis
 
@@ -47,10 +43,11 @@ As for the threshold, similar to the prior method, we
 
 ### Table2 The Experimental Results
 
-| Method | Ma-P | Ma-R | Ma-F1  | Mi-F 1 | Mean F1 |
+| Method | Ma-P | Ma-R | Ma-F1  | Mi-F1 | Mean F1 |
 | --- | --- | --- | --- | --- | --- |
 | **GPT-4o** | 47.12 | 49.54 | 45.40 | 74.55 | 59.97 |
 | **macbert** | 45.19 | 43.27 | 42.09 | 80.77 | 61.43 |
-| **Framework** | 46.85 | 44.11 | 43.39 | **81.23** | **62.31** |
+| **Framework** | 46.91 | 44.82 | 43.81 | **81.35** | **62.58** |
 
-As shown in Table3, our proposed framework outperforms both the SMs-based and LLMs-based baselines, achieving the best performance with an average improvement of 1.61% on mean F1. Therefore, this experiment demonstrates that our proposed framework can be generalized to other different legal field, demonstrating a degree of applicability and scalability.
+As shown in Table3, our proposed framework outperforms both the SMs-based and LLMs-based baselines, achieving the best performance with an average improvement of 1.88% on mean F1 and 3.69% on mi-F1. 
+While our framework's macro-F1 improvement demonstrates enhanced performance on few-shot cases than SMs, it does not surpass GPT-4o's overall performance on the full test set. The boost in micro-F1 confirms our framework's effectiveness in handling class-imbalanced dataset. Therefore, this experiment demonstrates that our proposed framework can be generalized to other different legal field, demonstrating a degree of applicability and scalability.
