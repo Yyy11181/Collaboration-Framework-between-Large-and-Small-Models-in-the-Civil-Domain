@@ -36,8 +36,8 @@ And we have analyzed the distribution of the dataset, which reveals long-tailed 
     <td><img src="https://github.com/user-attachments/assets/697eba81-a496-4ed8-a136-4fdb78857fb7" alt="图2" width="500"/></td>
   </tr>
   <tr>
-    <td align="center">图1标题</td>
-    <td align="center">图2标题</td>
+    <td align="center">Distribution of the dataset</td>
+    <td align="center">distribution of the test data</td>
   </tr>
 </table>
 
