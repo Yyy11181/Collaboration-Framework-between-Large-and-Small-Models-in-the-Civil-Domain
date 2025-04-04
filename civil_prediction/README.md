@@ -5,7 +5,7 @@
 ### 📁 Directories
 | Directory | Description |
 |-----------|------------|
-| `civil_database/` |   The database used in LLM prompt:<br>- applicable_case <br>- confusing charges dictionary<br>- crime_define <br>-label2id<br>|
+| `civil_database/` |   The database used in LLM prompt:<br>- applicable_case <br>- confusing charges dictionary<br>- crime_define <br>- label2id<br>|
 
 ### 📋 Key Scripts
 | Script | Purpose |
