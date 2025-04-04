@@ -28,6 +28,8 @@ We use a large scale civil dataset from CAIL-Long, a long text civil and crimina
 | cause of action | 257 |
 | law | 330 |
 | Average Length of Fact Description | 1286.88 |
+
+
 And we have analyzed the distribution of the dataset, which reveals long-tailed distribution characteristics.
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" />
 
