@@ -59,6 +59,6 @@ we use the MacBERT as the SMs, and GPT-4o(gpt-4o-08-06) as the LLMs for the seco
 | **macbert** | 45.19 | 43.27 | 42.09 | 80.77 | 61.43 |
 | **Framework** | 46.91 | 44.82 | 43.81 | **81.35** | **62.58** |
 
-As shown in Table2, our proposed framework outperforms both the SMs-based and LLMs-based baselines, achieving the best overall performance with an average improvement of 1.88% on Mean F1 and 3.69% on Mi-F1. Specifically, the framework shows a more significant improvement in Micro-F1 than in Macro-F1. However, given the low proportion of few-shot categories in the test set, it has not yet surpassed GPT-4o's comprehensive performance on the full test dataset.
+As shown in Table2, our proposed framework outperforms both the SMs-based and LLMs-based baselines, achieving the best overall performance with an average improvement of 1.88% on Mean F1. Specifically, the framework shows a more significant improvement in Macro-F1 than in Micro-F1. However, given the low proportion of few-shot categories in the filtered cases, it has not yet surpassed GPT-4o's comprehensive performance on the full test data.
 
 Therefore, this experiment demonstrates that our proposed framework can be generalized to different legal fields, demonstrating its generalisability.
