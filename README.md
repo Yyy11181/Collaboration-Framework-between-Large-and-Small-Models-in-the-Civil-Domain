@@ -29,12 +29,13 @@ We use a large scale civil dataset from CAIL-Long, a long text civil and crimina
 | law | 330 |
 | Average Length of Fact Description | 1286.88 |
 
-Furthermore, our dataset analysis reveals a pronounced long-tailed distribution characteristic (Figure 1). 
+Furthermore, Figure 1 reveals distinct long-tailed characteristics in the dataset distribution. This imbalance pattern particularly impacts recognition performance for tail classes.
 
-<figure>
-    <img src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" alt="Long-tailed distribution visualization">
-    <figcaption>Figure 1: Visualization of the long-tailed class distribution in our dataset.</figcaption>
-</figure>
+<center>
+<img src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" alt="Distribution" width="400">
+</center>
+*Figure 1: Long-tailed distribution characteristics*
+
 
 ## Experiment setting
 
@@ -52,6 +53,6 @@ we use the MacBERT as the SMs, and GPT-4o(gpt-4o-08-06) as the LLMs for the seco
 | **macbert** | 45.19 | 43.27 | 42.09 | 80.77 | 61.43 |
 | **Framework** | **59.76**| **52.53** |**52.89** | **82.04** | **67.47** |
 
-As demonstrated in Table 2, our proposed framework achieves state-of-the-art performance, surpassing both SM-based and LLM-based baselines across all metrics. The framework exhibits particularly strong improvements in macro-level evaluation, with a 9.15% increase in Macro-F1 compared to a 4.38% gain in Micro-F1, reflecting its enhanced capability in handling class-imbalanced scenarios. Overall, the framework delivers a consistent 6.77% average improvement in Mean F1 score, demonstrating its robust performance across different evaluation perspectives.
+As demonstrated in Table 2, our proposed framework achieves state-of-the-art performance, surpassing both SM-based and LLM-based baselines across all metrics. The framework exhibits particularly strong improvements in macro-level evaluation, with a 9.15% increase in Macro-F1 compared to a 4.38% gain in Micro-F1, reflecting its enhanced capability in handling few-shot cases. Overall, the framework delivers a consistent 6.77% average improvement in Mean F1 score, demonstrating its robust performance across different evaluation perspectives.
 
 Therefore, this experiment demonstrates that our proposed framework can be generalized to different legal fields, demonstrating its generalisability.
