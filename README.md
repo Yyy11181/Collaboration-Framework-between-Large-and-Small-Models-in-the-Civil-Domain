@@ -34,6 +34,7 @@ Furthermore, Figure 1 reveals distinct long-tailed characteristics in the datase
 <center>
 <img src="https://github.com/user-attachments/assets/a67c02bd-de61-4079-bf10-faec823aa1d2" alt="Distribution" width="400">
 </center>
+
 *Figure 1: Long-tailed distribution characteristics*
 
 
