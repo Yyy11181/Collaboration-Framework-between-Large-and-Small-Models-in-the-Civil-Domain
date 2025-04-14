@@ -1,4 +1,4 @@
-### Collaboration-Framework-between-Large-and-Small-Models-in-the-Civil-Domain
+### CivilLaw-LS-Framework
 
 We propose a hybrid framework that collaborates both large and small models to improve charge prediction. Initially, the SMs provide an initial prediction along with a predicted probability distribution. If the maximum predicted probability falls below a threshold, the LLMs step in to reflect and re-predict as needed. Additionally, we construct a confusing charges dictionary based on the confusion matrix of SMs, which helps the LLMs make secondly prediction. 
 
